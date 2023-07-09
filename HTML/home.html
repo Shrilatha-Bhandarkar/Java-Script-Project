@@ -13,19 +13,19 @@
 <body>
      <!-- Header -->
      <header>
-        <nav>
-            <a href="" class="navbar">
-                <h1>SHOPPING CART </h1></a>
-                <i class='bx bxs-cart'></i>
+        <nav class="navbar">
+            <a href=""  >
+                <h1 style="text-align: center;">SHOPPING CART </h1></a>
+                <a href="cart.html" class="cart-nav"><i class='bx bxs-cart-download bx-lg'></i></a>      
         </nav>
-        
     </header>
+
     <!-- Shopping Section -->
-    <section style="text-align: center;">
+    <section class="section">
         <div>
             <h2 id="shopproduct">Shopping Products</h1>
         </div>
-        <div>
+        <div class="row">
             <table style="width: 100%;">
                 <tr>
                     <td>
@@ -33,7 +33,7 @@
                             <img src="../Images/Schoolbag.webp" alt="Image not found" style="width: 200px;">
                             <h3>School Bag</h3>
                             <span>₹800</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm'></i></a>
                         </div>
                     </td>
                     <td>
@@ -114,5 +114,6 @@
             </table>
         </div>
     <script src="../../js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
