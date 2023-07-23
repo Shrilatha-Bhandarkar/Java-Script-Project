@@ -11,12 +11,14 @@
     <link href="../../css/bootstrap.min.css">
 </head>
 <body>
-     <!-- Header -->
-     <header>
+    <header>
         <nav class="navbar">
-            <a href=""  >
-                <h1 style="text-align: center;">SHOPPING CART </h1></a>
-                <a href="cart.html" class="cart-nav"><i class='bx bxs-cart-download bx-lg'></i></a>      
+            <a href="#">
+                <h1>SHOPPING CART</h1>
+            </a>
+            <a href="cart.html" class="cart-nav">
+                <i class='bx bxs-cart-download bx-lg'></i>
+            </a>
         </nav>
     </header>
 
@@ -29,91 +31,92 @@
             <table style="width: 100%;">
                 <tr>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="1">
                             <img src="../Images/Schoolbag.webp" alt="Image not found" style="width: 200px;">
                             <h3>School Bag</h3>
                             <span>₹800</span>
-                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm'></i></a>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('School Bag',800,'Schoolbag.webp')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="2">
                             <img src="../Images/Bottle.avif" alt="Image not found" style="width: 200px;">
                             <h3>Bottle</h3>
                             <span>₹99</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Bottle',99,'Bottle.avif')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="3">
                             <img src="../Images/shoes.jpg" alt="Image not found" style="width: 200px;">
                             <h3>Shoes</h3>
                             <span>₹1099</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Shoes',1099,'shoes.jpg')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="4">
                             <img src="../Images/Umbrella.avif" alt="Image not found" style="width: 200px;">
                             <h3>Umbrella</h3>
                             <span>₹459</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Umbrella',459,'Umbrella.avif')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="5">
                             <img src="../Images/Headphone.jpg" alt="Image not found" style="width: 200px;">
                             <h3>Head Phone</h3>
                             <span>₹1599</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Head Phone',1599,'Headphone.jpg')" id="cl"></i></a>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="6">
                             <img src="../Images/LunchBox.webp" alt="Image not found" style="width: 200px;">
                             <h3>Lunch Box</h3>
                             <span>₹399</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Lunch Box',399,'LunchBox.webp')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="7">
                             <img src="../Images/table.jpg" alt="Image not found" style="width: 200px;">
                             <h3>Table</h3>
                             <span>₹798</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Table',798,'table.jpg')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="8">
                             <img src="../Images/watch.png" alt="Image not found" style="width: 200px;">
                             <h3>Watch</h3>
                             <span>₹2599</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Watch',2599,'watch.png')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="9">
                             <img src="../Images/Pen.png" alt="Image not found" style="width: 200px;">
                             <h3>Pen</h3>
                             <span>₹85</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Pen',85,'Pen.png')" id="cl"></i></a>
                         </div>
                     </td>
                     <td>
-                        <div class="intoproduct">
+                        <div class="intoproduct" id="10">
                             <img src="../Images/file.jpg" alt="Image not found" style="width: 200px;">
                             <h3>File</h3>
                             <span>₹179</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                            <a href="cart.html" ><i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('File',179,'file.jpg')" id="cl"></i></a>
                         </div>
                     </td>
                 </tr>
             </table>
         </div>
-    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>    
+    <script src="../JAVASCRIPT/Function.js"></script>
 
 </body>
 </html>
