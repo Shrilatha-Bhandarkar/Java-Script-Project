@@ -7,35 +7,35 @@
     <link href="../../css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../CSS/Style.css">
+        <nav class="navbar">
+            <a href="#">
+                <h1>MY CART</h1>
+            </a>
+            <a href="home.html" class="cart-nav">
+                <i class='bx bxs-home bx-lg' ></i></a>
+            </nav>
 </head>
 <body>
     <div class="cart">
-        <div class="navbar">
-            <h2 class="cart-title">My Cart</h2>
-            <a href="home.html" ><br><i class='bx bxs-home bx-lg' ></i></a>
+        <div class="container">
+            <div class="row" id="cart-rem">
+            </div> 
         </div>
-        
-        <div class="cart-body">
-                <img src="../Images/Schoolbag.webp" alt="Loading" class="cart-img"/>
-                <div class="detail-box">
-                    <div class="cart-pro-title">School bag</div>
-                    <div class="cart-price">₹800</div>
-                    <input type="number" class="cart-qantity" placeholder="Quantity"></input>
-                   
-            </div>
-            
-            <div class="cart-total">
-                <div class="total-title">Total &emsp;:</div>
-                <div class="total-price">₹1600</div>
-            </div>
-            <br>
-            <div class="Order">
-                <button class="btn-order">Order Now</button>
-                <i class='bx bxs-trash-alt cart-del'></i>
+        <br>
+        <div class="last">
+            <div class="block">
+                <div class="td">
+                    <h3 class="total">Total Amount: <span id="cost">₹0.0</span></h3>
+                    <button  class="btn-order" onclick="Order()">Order</button>
+                </div>
             </div>
         </div>
     </div>
-    <script src="../JAVASCRIPT/Script.js"></script>
+
+    <script src="../JAVASCRIPT/Function.js"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>  
+
+
+
